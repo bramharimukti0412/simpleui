@@ -1,0 +1,14 @@
+formatVersion: 1
+formatType: am-application
+---
+id:      'com.simpleui.smarthome'
+icon:    'icon.png'
+code:    'Main.qml'
+runtime: 'qml'
+runtimeParameters:
+    importPaths: [ 'imports' ]
+    pluginPaths: [ '.' ]
+name:
+  en: 'SmartHome'
+
+categories: [ 'other' ]

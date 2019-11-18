@@ -1,0 +1,16 @@
+formatVersion: 1
+formatType: am-application
+---
+id:      'com.simpleui.automation'
+icon:    'icon.png'
+code:    'Main.qml'
+runtime: 'qml'
+runtimeParameters:
+    importPaths: [ 'imports' ]
+    pluginPaths: [ '.' ]
+name:
+  en: 'Automation'
+  de: 'Automation'
+  cs: 'Automation'
+
+categories: [ 'other' ]

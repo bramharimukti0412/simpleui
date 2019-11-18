@@ -1,0 +1,8 @@
+@config_simulator: { simulationFile: "qrc:/simulation.qml" }
+module Example.Automation 1.0;
+
+interface TankValues {
+    readonly int tankValue1
+    readonly int tankValue2
+    readonly int tankValue3
+}

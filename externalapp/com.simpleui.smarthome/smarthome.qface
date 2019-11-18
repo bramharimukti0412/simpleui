@@ -1,0 +1,32 @@
+@config_simulator: { simulationFile: "qrc:/simulation.qml" }
+module Example.SmartHome 1.0;
+
+interface HeatingValues {
+    /*
+     * Bedroom A
+     */
+    readonly real actualHeatingTempBRA
+    real targetHeatingTempBRA
+    bool autoHeatingBRA
+
+    /*
+     * Bedroom B
+     */
+    readonly real actualHeatingTempBRB
+    real targetHeatingTempBRB
+    bool autoHeatingBRB
+
+    /*
+     * Living Room
+     */
+    readonly real actualHeatingTempLR
+    real targetHeatingTempLR
+    bool autoHeatingLR
+
+    /*
+     * Bathroom
+     */
+    readonly real actualHeatingTempBTR
+    real targetHeatingTempBTR
+    bool autoHeatingBTR
+}
